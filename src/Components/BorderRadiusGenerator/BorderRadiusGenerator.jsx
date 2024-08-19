@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import styles from "./BorderRadiusGenerator.module.css";
-import { Box, Form, Heading, Range } from "react-ui-essentials";
+import { Box, Form } from "react-ui-essentials";
 import SyntaxHighLighter from "../SyntaxHighLighter/SyntaxHighLighter";
+import Range from "../Range/Range";
 
 const BorderRadiusGenerator = () => {
   const [radii, setRadii] = useState({
@@ -74,6 +75,8 @@ const BorderRadiusGenerator = () => {
           {Object.entries(radii).map(([corner, value]) => (
             <Box key={corner} className={styles.control}>
               <Range
+                variant="primary"
+                size="sm"
                 id={corner}
                 title={corner.replace(/([A-Z])/g, " $1").trim()}
                 value={value}

@@ -9,4 +9,9 @@ export const products = [
     logo: "",
     link: "https://react-ui-essentials-icons.vercel.app/",
   },
+  {
+    name: "Flex Box Playground",
+    logo: "",
+    link: "https://rue-flex-box-playground.vercel.app/",
+  },
 ];
