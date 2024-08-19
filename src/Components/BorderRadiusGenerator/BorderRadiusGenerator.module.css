@@ -1,0 +1,47 @@
+.mainContent {
+    display: flex !important;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.previewContainer {
+    flex: 1;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.controls {
+    flex: 1;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.control {
+    display: flex !important;
+    flex-direction: column;
+}
+
+
+@media (max-width: 768px) {
+    .mainContent {
+        flex-direction: column;
+    }
+
+    .controls {
+        grid-template-columns: 1fr;
+    }
+}

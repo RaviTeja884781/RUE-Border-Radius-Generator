@@ -1,0 +1,83 @@
+.poster_container {
+    display: flex !important;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-image: url(../../assets/audio-bar.svg);
+    background-position: bottom center;
+    background-size: 120px;
+    background-repeat: space no-repeat;
+}
+
+.poster_container div:first-child {
+    margin-right: 20px;
+}
+
+.poster_right_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster_right_container h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.poster_right_container div a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .poster_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px
+    }
+
+    .poster_right_container h1 {
+        font-size: 33px;
+    }
+
+    .poster_right_container>p {
+        font-size: 17px;
+    }
+
+    .poster_right_container div a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .poster_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px
+    }
+
+    .poster_right_container h1 {
+        font-size: 33px;
+    }
+
+    .poster_right_container>p {
+        font-size: 17px;
+    }
+
+    .poster_right_container div a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
