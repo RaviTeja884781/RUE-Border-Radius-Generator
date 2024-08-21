@@ -27,7 +27,7 @@ dependencies:
     specifier: ^18.3.1
     version: 18.3.1(react@18.3.1)
   react-ui-essentials:
-    specifier: ^1.0.19
+    specifier: ^1.0.22
     version: 1.0.22(react-dom@18.3.1)(react@18.3.1)
   react-ui-essentials-icons:
     specifier: ^1.0.3
